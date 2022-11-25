@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Baloo Bhai', cursive;
+            margin:0px;
+            text-transform: uppercase;
+            cursor: pointer;
+            
+        }
+        #navbar{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color:black;
+            opacity: .7;
+            
+            top:0px;
+            width:100%;
+            height:100px;
+            
+            
+        
+        
+        }
+        #navbar ul{
+            display:flex;
+        
+        }
+        li{
+            margin-left:20px;
+            text-decoration: none;
+            list-style: none;
+            font-size: 140%;
+            
+        }
+        #navbar img{
+            border-radius: 50%;;
+            margin-left:30%;
+            width: 100px;
+            height:100px;
+        }
+        a{
+            text-decoration: none;
+            list-style: none;;
+        }
+        a:hover{
+            color:blue;
+        }
+        #header{
+         background-image:url(/img/pexels-pixabay-268533.jpg);
+         display: flex;
+         padding:50px;
+        }
+        #header h1{
+            margin:50px;
+            font-size:300%;
+            border-radius: 50%;
+        
+        
+        }
+        #header input{
+            margin:50px;
+            font-size:300%;
+            background-color: aqua;
+          border-radius: 30%;
+        
+        }
+        #why{
+            margin-left: 50%;
+        }
+        #server{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 10px;
+            margin:20px;
+            justify-content: center;
+            text-align: center;
+        }
+        #server h2{
+            color:grey;
+        }
+        #contact{
+            background-image: linear-gradient(pink,violet);
+            text-align: center;
+            padding:100px;
+            font-size: 200%;
+            color:white;
+        }
+        #shape{
+            display: grid;
+            grid-template-rows: repeat(4,1fr);
+            margin-left:300px;
+            margin-right:300px;
+            margin-top:50px;
+            color:grey;
+            font-weight: 200;
+        }
+        #shape div{
+            display:flex;
+            border-bottom:.7px solid black;
+            margin-bottom: 0px;;
+        }
+        #shape span{
+            padding-top:30px;
+            margin-left:300px;
+        
+        }
+        #last{
+          background-image: url(/img/pexels-pixabay-355887.jpg);
+          
+          text-align: center;
+          padding:100px;
+          color:white;
+          font-size: 200%;
+        }
+        #last input{
+            padding:20px;
+            color:black;
+            font-size: 200%;
+            border-radius: 30%;
+        }
+        #footer img{
+        margin-top: 30px;
+        margin-left: 40px;
+        }
+        #footer{
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+            background-color: black;
+            color:white;
+            padding-left:40px;
+        }
+        #footer section{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            border:1px solid blue;
+            border-radius: 10px;
+            margin-left:30px;
+          }
+          
+          /*
+          lorem*7
+          ><!--Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium incidunt cupiditate provident, dignissimos sed error impedit quia harum? Perspiciatis mollitia soluta ut sit, cum provident est dolores voluptatum obcaecati?
+                    Eligendi pariatur ipsum qui ratione eos sapiente atque voluptatem aliquam, vero exercitationem omnis ex repellat rem magnam cum reiciendis soluta ut neque adipisci nam inventore quam quia praesentium. Eligendi, reiciendis.
+                    Dolorem nulla facilis similique impedit! Laborum excepturi praesentium ex iure cumque distinctio sunt aliquam blanditiis perspiciatis eius! Laborum praesentium voluptas, commodi cumque repellendus blanditiis porro aperiam aliquam voluptate dolor quibusdam!
+                    Assumenda quam provident vero saepe nobis! Rem facere molestiae exercitationem. Architecto laborum est, dignissimos, et minima quibusdam suscipit, illum in repellendus necessitatibus voluptas doloribus labore sunt cum beatae distinctio itaque?
+                    Ullam impedit quisquam illum fugiat cupiditate sunt accusamus nulla in itaque eligendi ad fugit dicta quas adipisci, laboriosam molestias iste similique vitae sapiente repudiandae suscipit qui minus. Excepturi, omnis praesentium.
+                    Rem impedit quis sed doloribus quas, praesentium iste. Quaerat impedit dolorem dolore numquam aperiam itaque magnam optio ex perspiciatis illum, non sed odio error, harum commodi eos laborum expedita alias.
+                    Suscipit veritatis assumenda illum nobis a! Aperiam assumenda, a aliquid quibusdam, doloribus ab iusto maiores possimus eaque perspiciatis ullam repudiandae laudantium ex minima fugit cumque repellendus corporis consectetur non doloremque.
+                    Impedit praesentium fugit maxime hic illum itaque consequuntur obcaecati iste! Sed adipisci, expedita sunt cupiditate officia dolores provident non, accusamus perspiciatis impedit aut, reiciendis explicabo aliquam illum ab exercitationem? Nam.
+                    Consectetur, suscipit. Dolores veritatis deleniti, mollitia numquam minima dolorem quasi maxime libero laboriosam nam neque necessitatibus rem hic saepe sequi! Suscipit quo, recusandae iure similique eligendi ipsum enim tempore dolore?
+                    Ut, eum nisi. Voluptatibus neque nostrum odio consectetur quam minima asperiores ab molestias placeat laborum odit ipsam, obcaecati quis consequuntur est accusamus similique corporis eos! Et sequi corrupti consectetur ipsam!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias debitis earum in autem et iusto architecto totam obcaecati ducimus quaerat, fuga dignissimos minus, voluptatem temporibus numquam tempora velit recusandae molestiae!
+                        lorem
+                        -->
+        
+          /* Add a hover effect if you want */
+          .fa:hover {
+            opacity: 0.7;
+          }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/img/image.jpg" alt="MyOnlineMeal.com" width="100px" height="100px">
+        </div>
+        <ul>
+            <li class="item"><a href="#header">Premium</a></li>
+            <li class="item"><a href="#server">support</a></li>
+            <li class="item"><a href="#shape">download</a></li>
+            <li class="item"><a href="#contact">sign up</a></li>
+            <li class="item"><a href="#footer">log in</a></li>
+        </ul>
+    </nav>
+    <section id="">
+        <img src="/img/mobile-0819.jpg" height="400px" widht="300px">
+        <div>
+            <h1>
+                PLay millions of songs and podcastings for free
+            </h1>
+            <input type="submit" value=" songs">
+        </div>
+    </section>
+    <h1 id="why">why spotify</h1>
+    <br>
+    <br>
+    <section id="server">
+        <div>
+            <img src="/img/icon1.jpg">
+            <h1>
+                Play your favourites
+            </h1>
+            <h2>
+                Lorem eligendi repellat, quibusdam.
+            </h2>
+        </div>
+        <div>
+            <img src="/img/icon1.jpg">
+            <h1>
+                Play your favourites
+            </h1>
+            <h2>
+                Lorem ipsum eligendi repellat, quibusdam iste.
+            </h2>
+        </div>
+        <div>
+            <img src="/img/icon1.jpg">
+            <h1>
+                Play your favourites
+            </h1>
+            <h2>adipisicing elit. Ducimus accusamus.
+            </h2>
+        </div>
+        <div>
+            <img src="/img/icon1.jpg">
+            <h1>
+                Play your favourites
+            </h1>
+            <h2>
+                Lorem ipsum dolor sit elit. Ducimus expedita accusamus.
+            </h2>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>
+            it's free <br>
+            no credit required.
+        </h1>
+    </section>
+    <section id="shape">
+        <div>
+            <h1>
+                how do i create a playlist.
+            </h1>
+
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </div>
+        <div>
+            <h1>
+                how do i create a playlist.
+            </h1>
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </div>
+        <div>
+            <h1>
+                how do i create a playlist.
+            </h1>
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+
+        </div>
+        <div>
+            <h1>
+                how can i create a playlist.
+            </h1>
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </div>
+    </section>
+    <section id="last">
+        <h1>
+            Ready let's play
+        </h1>
+        <input type="submit" value="get songs">
+<!-- Write your comments here
+lorem
+lorem*5 lorem
+
+ -->
+<!--Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores minima facere iure voluptatibus labore vitae commodi voluptas architecto distinctio unde. Nihil repellendus impedit quae, ullam et vitae ad? Alias, a.
+--></section>
+        <section id="footer">
+        <section>
+            <img src="/img/image.jpg" alt="MyOnlineMeal.com" width="100px" height="100px">
+        </section>
+        <section>
+            <div>
+                <h1>company</h1>
+                <h2>
+                    about
+                </h2>
+                <h2>
+                    jobs
+                </h2>
+                <h2>for the record</h2>
+            </div>
+            <div>
+                <h1>communities</h1>
+                <h2>
+                    for artist
+                </h2>
+                <h2>
+
+                </h2>
+                <h2>communities</h2>
+            </div>
+            <div><!--Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium incidunt cupiditate provident, dignissimos sed error impedit quia harum? Perspiciatis mollitia soluta ut sit, cum provident est dolores voluptatum obcaecati?
+            Eligendi pariatur ipsum qui ratione eos sapiente atque voluptatem aliquam, vero exercitationem omnis ex repellat rem magnam cum reiciendis soluta ut neque adipisci nam inventore quam quia praesentium. Eligendi, reiciendis.
+            Dolorem nulla facilis similique impedit! Laborum excepturi praesentium ex iure cumque distinctio sunt aliquam blanditiis perspiciatis eius! Laborum praesentium voluptas, commodi cumque repellendus blanditiis porro aperiam aliquam voluptate dolor quibusdam!
+            Assumenda quam provident vero saepe nobis! Rem facere molestiae exercitationem. Architecto laborum est, dignissimos, et minima quibusdam suscipit, illum in repellendus necessitatibus voluptas doloribus labore sunt cum beatae distinctio itaque?
+            Ullam impedit quisquam illum fugiat cupiditate sunt accusamus nulla in itaque eligendi ad fugit dicta quas adipisci, laboriosam molestias iste similique vitae sapiente repudiandae suscipit qui minus. Excepturi, omnis praesentium.
+            Rem impedit quis sed doloribus quas, praesentium iste. Quaerat impedit dolorem dolore numquam aperiam itaque magnam optio ex perspiciatis illum, non sed odio error, harum commodi eos laborum expedita alias.
+            Suscipit veritatis assumenda illum nobis a! Aperiam assumenda, a aliquid quibusdam, doloribus ab iusto maiores possimus eaque perspiciatis ullam repudiandae laudantium ex minima fugit cumque repellendus corporis consectetur non doloremque.
+            Impedit praesentium fugit maxime hic illum itaque consequuntur obcaecati iste! Sed adipisci, expedita sunt cupiditate officia dolores provident non, accusamus perspiciatis impedit aut, reiciendis explicabo aliquam illum ab exercitationem? Nam.
+            Consectetur, suscipit. Dolores veritatis deleniti, mollitia numquam minima dolorem quasi maxime libero laboriosam nam neque necessitatibus rem hic saepe sequi! Suscipit quo, recusandae iure similique eligendi ipsum enim tempore dolore?
+            Ut, eum nisi. Voluptatibus neque nostrum odio consectetur quam minima asperiores ab molestias placeat laborum odit ipsam, obcaecati quis consequuntur est accusamus similique corporis eos! Et sequi corrupti consectetur ipsam!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias debitis earum in autem et iusto architecto totam obcaecati ducimus quaerat, fuga dignissimos minus, voluptatem temporibus numquam tempora velit recusandae molestiae!
+                lorem
+                -->
+                <h1>company</h1>
+                <h2>
+                    about
+                </h2>
+                <h2>
+                    jobs
+                </h2>
+                <h2>for the record</h2>
+            </div>
+            <div>
+                <a href="#" class="fa fa-twitter"></a>
+
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
